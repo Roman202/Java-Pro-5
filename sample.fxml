@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="134.0" prefHeight="269.0" prefWidth="700.0" style="-fx-background-color: fafafafa;">
+         <children>
+            <TextField layoutX="237.0" layoutY="77.0" prefHeight="25.0" prefWidth="221.0" promptText="Login" />
+            <PasswordField layoutX="237.0" layoutY="122.0" prefHeight="25.0" prefWidth="221.0" promptText="Password" />
+            <Label layoutX="219.0" prefHeight="74.0" prefWidth="258.0" text="Авторізація" textFill="#949090">
+               <font>
+                  <Font name="Times New Roman Italic" size="48.0" />
+               </font>
+            </Label>
+            <Button layoutX="270.0" layoutY="177.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: #fba104;" text="Sing in">
+               <font>
+                  <Font name="Times New Roman Italic" size="31.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="27.0" layoutY="14.0" prefHeight="74.0" prefWidth="647.0" text="Roman Hera new Javist" textFill="#f2dd00">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="449.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="237.0" style="-fx-background-color: #fba104;" text="New programer">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
